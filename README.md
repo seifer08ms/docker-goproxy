@@ -30,7 +30,7 @@ The container exposed 8087 ports for config and connection. Using httpproxy.user
 ```
 ### Export CRT file for certificate
 
-We can export the CA file into a target path in host. Typeing `make crt` to cp GoProxy.crt into current folder. We should import this crt file into our browser for https certificate.
+We can export the CA file into a target path in host. Using `make crt` to cp GoProxy.crt into the current folder. We should import this crt file into our browser for https certificate.
 
 ### Access from host
 
