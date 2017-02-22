@@ -14,7 +14,8 @@ Using `docker run` command to create a container named `goproxy`.
 IMAGE_NAME = seifer08ms/goproxy
 CONTAINER_NAME = goproxy
 HOST_PORT = 8087
-docker run  --name ${CONTAINER_NAME} -d --restart=always -p ${HOST_PORT}:8087 -v ${PWD}/gae.user.json:/goproxy/gae.user.json -v ${PWD}/httpproxy.user.json:/goproxy/httpproxy.user.json ${IMAGE_NAME}```
+docker run  --name ${CONTAINER_NAME} -d --restart=always -p ${HOST_PORT}:8087 -v ${PWD}/gae.user.json:/goproxy/gae.user.json -v ${PWD}/httpproxy.user.json:/goproxy/httpproxy.user.json ${IMAGE_NAME}
+```
 
 ## Remote access
 
